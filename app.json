@@ -32,12 +32,10 @@
         "required": true
       },
       "buildpacks": {
-        "description": "Buildppacks Untuk Heroku.",
         "value": "heroku/python",
         "required": true
       },
       "formation": {
-        "description": "Formation Dyno Heroku, Jika anda menggunakan tipe Dyno yg lain silahkan diubah.",
         "value": "eco",
         "required": true
       },
