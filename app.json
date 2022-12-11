@@ -31,6 +31,16 @@
         "value": "-100", 
         "required": true
       },
+      "buildpacks": {
+        "description": "Buildppacks Untuk Heroku.",
+        "value": "heroku/python",
+        "required": true,
+      },
+      "formation": {
+        "description": "Formation Dyno Heroku, Jika anda menggunakan tipe Dyno yg lain silahkan diubah.",
+        "value": "eco",
+        "required": true
+      },
       "HEROKU_APP_NAME": {
         "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
         "required": true
