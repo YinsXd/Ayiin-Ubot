@@ -34,7 +34,7 @@
       "buildpacks": {
         "description": "Buildppacks Untuk Heroku.",
         "value": "heroku/python",
-        "required": true,
+        "required": true
       },
       "formation": {
         "description": "Formation Dyno Heroku, Jika anda menggunakan tipe Dyno yg lain silahkan diubah.",
